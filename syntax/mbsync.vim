@@ -1,9 +1,9 @@
 " Vim syntax file
 " Language:     mbsync setup files
 " Maintainer:   Stephen Gregoratto <themanhimself@sgregoratto.me>
-" Last Change:  2018-07-15
+" Last Change:  2019-08-10
 " Filenames:    mbsyncrc
-" Version:      0.2.1
+" Version:      0.2.2
 " Licence:      GPLv3+
 "
 " Note:         This config borrows heavily from msmtprc.vim
