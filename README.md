@@ -2,6 +2,14 @@
 
 Syntax highlighting for mbsynrc
 
+## Installation
+
+I recommend [vim-plug][vim-plug]. If not, use your preferred method.
+
+```
+Plug 'chunkhang/vim-mbsync'
+```
+
 ## History
 
 - [The-King-of-Toasters][the-king-of-toasters] created the original [gist][original-gist]
@@ -13,3 +21,4 @@ Syntax highlighting for mbsynrc
 [lei]: https://github.com/LEI
 [forked-gist]: https://gist.github.com/LEI/c77b7bca5a18edb7f29a81f9418b54ad
 [chunkhang]: https://github.com/chunkhang
+[vim-plug]: https://github.com/junegunn/vim-plug
