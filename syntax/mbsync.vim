@@ -25,7 +25,7 @@ syntax match mbsyncOption /^\<\(IMAPAccount\|Host\|Port\|Timeout\|User\|Pass\|Pa
 " IMAP Stores
 syntax match mbsyncOption /^\<\(IMAPStore\|Account\|UseNameSpace\|PathDelimiter\)\>/
 " Channels
-syntax match mbsyncOption /^\<\(Channel\|Master\|Slave\|Pattern\|Patterns\|MaxSize\|MaxMessaages\|ExpireUnread\|Sync\|Create\|Remove\|Expunge\|CopyArrivalDate\|SyncState\)\>/
+syntax match mbsyncOption /^\<\(Channel\|Master\|Slave\|Pattern\|Patterns\|MaxSize\|MaxMessages\|ExpireUnread\|Sync\|Create\|Remove\|Expunge\|CopyArrivalDate\|SyncState\)\>/
 " Groups
 syntax match mbsyncOption /^\<\(Group\|Channel\)\>/
 " Global
