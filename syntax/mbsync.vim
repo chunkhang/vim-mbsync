@@ -10,9 +10,9 @@
 "               by Simon Ruderich and Eric Pruitt
 
 if v:version < 600
-        syntax clear
+  syntax clear
 elseif exists('b:current_syntax')
-        finish
+  finish
 endif
 
 " OPTIONS - Ripped directly from mbsync(1)
@@ -67,7 +67,7 @@ syntax region mbsyncString start=/'/ end=/'/
 syntax match mbsyncComment      /#.*$/ contains=@Spell
 " File/Dir paths - Neovim exclusive
 if has ('nvim')
-        syntax match mbsyncPath "~\%(/[^/]\+\)\+"
+  syntax match mbsyncPath "~\%(/[^/]\+\)\+"
 endif
 
 highlight default link mbsyncAddress            Constant
