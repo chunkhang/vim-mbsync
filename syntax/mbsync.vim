@@ -3,7 +3,7 @@
 " Maintainer:   Stephen Gregoratto <themanhimself@sgregoratto.me>
 " Last Change:  2019-08-10
 " Filenames:    mbsyncrc
-" Version:      0.3.0
+" Version:      0.3.1
 " Licence:      GPLv3+
 "
 " Note:         This config borrows heavily from msmtprc.vim
