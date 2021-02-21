@@ -1,6 +1,6 @@
 # vim-mbsync
 
-Syntax highlighting for mbsynrc
+Syntax highlighting for [mbsynrc][isync]
 
 ## Installation
 
@@ -16,6 +16,7 @@ Plug 'chunkhang/vim-mbsync'
 - [LEI][lei] forked the [gist][forked-gist]
 - [chunkhang][chunkhang] created this plugin based on the forked gist
 
+[isync]: https://isync.sourceforge.io/
 [the-king-of-toasters]: https://github.com/The-King-of-Toasters
 [original-gist]: https://gist.github.com/The-King-of-Toasters/4f4688498529b37476880a73c6401533
 [lei]: https://github.com/LEI
