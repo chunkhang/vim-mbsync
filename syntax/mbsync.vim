@@ -14,7 +14,7 @@ syntax match mbsyncOption /^\<\(IMAPAccount\|Host\|Port\|Timeout\|User\|Pass\|Pa
 " IMAP Stores
 syntax match mbsyncOption /^\<\(IMAPStore\|Account\|UseNameSpace\|PathDelimiter\)\>/
 " Channels
-syntax match mbsyncOption /^\<\(Channel\|Master\|Slave\|Pattern\|Patterns\|MaxSize\|MaxMessages\|ExpireUnread\|Sync\|Create\|Remove\|Expunge\|CopyArrivalDate\|SyncState\)\>/
+syntax match mbsyncOption /^\<\(Channel\|Master\|Slave\|Far\|Near\|Pattern\|Patterns\|MaxSize\|MaxMessages\|ExpireUnread\|Sync\|Create\|Remove\|Expunge\|CopyArrivalDate\|SyncState\)\>/
 " Groups
 syntax match mbsyncOption /^\<\(Group\|Channel\)\>/
 " Global
@@ -31,8 +31,8 @@ syntax match mbsyncWrongOption /^\<\(SSLType\) \(None$\|STARTTLS$\|IMAPS$\)\@!.*
 syntax match mbsyncWrongOption /^\<\(SSLVersions\) \(SSLv3$\|TLSv1$\|TLSv1.1$\|TLSv1.2$\)\@!.*$/
 " Option Sync
 syntax match mbsyncWrongOption /^\<\(Sync\) \(None$\|Pull$\|Push$\|New$\|ReNew$\|Delete$\|Flags$\|All$\)\@!.*$/
-" Options Create|Remove|Expunge accept None|Master|Slave|Both
-syntax match mbsyncWrongOption /^\<\(Create\|Remove\|Expunge\) \(None$\|Master$\|Slave$\|Both$\)\@!.*$/
+" Options Create|Remove|Expunge accept None|Master|Slave|Far|Near|Both
+syntax match mbsyncWrongOption /^\<\(Create\|Remove\|Expunge\) \(None$\|Master$\|Slave$\|Far$\|Near$\|Both$\)\@!.*$/
 " Marks all wrong option values as errors.
 syntax match mbsyncWrongOptionValue /\S* \zs.*$/ contained containedin=mbsyncWrongOption
 " Mark the option part as a normal option.
